@@ -1,0 +1,52 @@
+html {
+    background-position: center;
+    background-color: rgba(255, 200, 112, 0.1);
+
+}
+body {
+    font-family: Georgia, serif;
+    display: block;
+    text-align: center;
+    background-image: none;
+    background-position: center;
+    background-color: rgba(255, 200, 112, 0.1);
+    background: linear-gradient(to right bottom, rgba(255, 200, 112, 0.4), rgba(255, 200, 112, 0.4));
+    max-width: 660px;
+    margin: auto;
+    border-radius: 2rem;
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    padding: 20px 50px;
+    margin-top: 25px;
+    color: black;
+    
+}
+
+img {
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    padding: 20px 50px;
+    background-color: rgba(255, 200, 112, 1);
+    font-size: 15px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+p {
+    background-image: url(papir.png);
+    background-repeat: no-repeat;
+    height: 165px;
+    width: 660px;
+}
+
+hr {
+    color: black;
+}
